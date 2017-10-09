@@ -12,7 +12,6 @@
                    2016/12/4: rewrite ConfigParser
 -------------------------------------------------
 """
-__author__ = 'JHao'
 
 
 class LazyProperty(object):
@@ -31,7 +30,6 @@ class LazyProperty(object):
             value = self.func(instance)
             setattr(instance, self.func.__name__, value)
             return value
-
 
 try:
     from configparser import ConfigParser  # py3

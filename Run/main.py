@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding:utf-8 -*-
 """
 -------------------------------------------------
    File Name：     main.py  
@@ -14,7 +14,6 @@ __author__ = 'JHao'
 
 import sys
 from multiprocessing import Process
-
 
 sys.path.append('../')
 
